@@ -1,5 +1,5 @@
 +++
-title = 'First_Post'
+title = 'Ce que j'ai appris du cours GitHub Pages !'
 date = 2023-11-16T21:32:40+01:00
 draft = false
 +++
