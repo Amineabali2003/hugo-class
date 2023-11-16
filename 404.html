@@ -5,12 +5,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>404 Page not found | My New Hugo Site</title>
+<title>404 Page not found | Mohammed Amine ABALI</title>
 <meta name="keywords" content="">
 <meta name="description" content="">
 <meta name="author" content="">
 <link rel="canonical" href="https://amineabali2003.github.io/hugo-class/404.html">
-<link crossorigin="anonymous" href="/hugo-class/assets/css/stylesheet.5cfc680b1eeaeef9efbced92d46c2a9e876b72ee14fba85846afc4cff9e6e6f8.css" integrity="sha256-XPxoCx7q7vnvvO2S1Gwqnodrcu4U&#43;6hYRq/Ez/nm5vg=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/hugo-class/assets/css/stylesheet.eb3faf35a09506e1f8c2f63e19e226826e13b666cbebb47d43973268238a2bae.css" integrity="sha256-6z&#43;vNaCVBuH4wvY&#43;GeImgm4TtmbL67R9Q5cyaCOKK64=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://amineabali2003.github.io/hugo-class/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://amineabali2003.github.io/hugo-class/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://amineabali2003.github.io/hugo-class/favicon-32x32.png">
@@ -80,7 +80,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://amineabali2003.github.io/hugo-class/" accesskey="h" title="My New Hugo Site (Alt + H)">My New Hugo Site</a>
+            <a href="https://amineabali2003.github.io/hugo-class/" accesskey="h" title="Mohammed Amine ABALI (Alt + H)">Mohammed Amine ABALI</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -111,75 +111,33 @@
 <main class="main">
 <div class="not-found">404</div>
     </main>
-    
-<footer class="footer">
-    <span>&copy; 2023 <a href="https://amineabali2003.github.io/hugo-class/">My New Hugo Site</a></span>
-    <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-    </span>
+    <link rel="stylesheet" href="css/custom.css" >
+<footer>
+    <div class="group">
+        <h2>Group 1</h2>
+        <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+        </ul>
+    </div>
+
+    <div class="group">
+        <h2>Group 2</h2>
+        <p>Contact: contact@example.com</p>
+        <p>Address: 123 Main Street, City</p>
+    </div>
+
+    <div class="group">
+        <h2>Group 3</h2>
+        <p>Follow us on social media:</p>
+        <div class="social-icons">
+            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+        </div>
+    </div>
 </footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
-    </svg>
-</a>
-
-<script>
-    let menu = document.getElementById('menu')
-    if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
-        menu.onscroll = function () {
-            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
-        }
-    }
-
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener("click", function (e) {
-            e.preventDefault();
-            var id = this.getAttribute("href").substr(1);
-            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
-                    behavior: "smooth"
-                });
-            } else {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
-            }
-            if (id === "top") {
-                history.replaceState(null, null, " ");
-            } else {
-                history.pushState(null, null, `#${id}`);
-            }
-        });
-    });
-
-</script>
-<script>
-    var mybutton = document.getElementById("top-link");
-    window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
-        } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
-        }
-    };
-
-</script>
-<script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            document.body.classList.add('dark');
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
-
-</script>
 </body>
 
 </html>
