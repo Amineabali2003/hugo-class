@@ -16,5 +16,14 @@
       <description>Au cours de la session dédiée à GitHub Pages, j&amp;rsquo;ai acquis une compréhension approfondie de la création et de la gestion de sites web statiques grâce à l&amp;rsquo;utilisation de GitHub. Le cours a mis l&amp;rsquo;accent sur l&amp;rsquo;intégration d&amp;rsquo;outils tels qu&amp;rsquo;Hugo, ce qui m&amp;rsquo;a permis de développer des compétences pratiques pour générer des pages statiques de manière efficace. La création de posts a été un aspect particulièrement enrichissant, car cela m&amp;rsquo;a permis d&amp;rsquo;explorer la structuration de contenu sur un site et d&amp;rsquo;apprendre à gérer des publications de manière organisée.</description>
     </item>
     
+    <item>
+      <title>Deuxieme post !</title>
+      <link>https://amineabali2003.github.io/hugo-class/docs/second_post/</link>
+      <pubDate>Thu, 16 Nov 2023 21:32:40 +0100</pubDate>
+      
+      <guid>https://amineabali2003.github.io/hugo-class/docs/second_post/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
